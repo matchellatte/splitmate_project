@@ -58,10 +58,10 @@ function Profile() {
   };
 
   // Handle form field changes
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setProfile(prev => ({ ...prev, [name]: value }));
-  };
+  // const handleChange = (e) => {
+  //   const { name, value } = e.target;
+  //   setProfile(prev => ({ ...prev, [name]: value }));
+  // };
 
   // Handle form submit
   const handleSubmit = async (e) => {

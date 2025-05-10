@@ -5,9 +5,9 @@ import API from '../api';
 function Dashboard() {
   const [groups, setGroups] = useState([]);
   const [recentExpenses, setRecentExpenses] = useState([]);
-  const [balances, setBalances] = useState({});
+  // const [balances, setBalances] = useState({});
   const [loading, setLoading] = useState(true);
-  const [userId, setUserId] = useState(null);
+  // const [userId, setUserId] = useState(null);
   const [groupBalances, setGroupBalances] = useState({});
 
   // Fetch groups, expenses, and balances
