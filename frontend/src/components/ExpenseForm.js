@@ -27,7 +27,7 @@ function ExpenseForm({ isEdit = false }) {
 
         if (isEdit && expenseId) {
           const expenseRes = await API.get(`expenses/${expenseId}/`);
-          setExpense(expenseRes.data);
+          
 
           // Set form values from expense
           setForm({

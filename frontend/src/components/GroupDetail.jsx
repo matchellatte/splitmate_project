@@ -58,7 +58,7 @@ function GroupDetail() {
 
         // Fetch user profile
         const userRes = await API.get('/profile/');
-        setUser(userRes.data);
+        
 
       } catch (err) {
         // Handle error, e.g., redirect to login or show a message
