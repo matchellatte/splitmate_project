@@ -1,4 +1,5 @@
 Django==5.2
 Pillow==10.2.0  # For image handling
 python-dotenv==1.0.1  # For environment variables
-whitenoise==6.6.0  # For serving static files 
+whitenoise==6.6.0  # For serving static files
+gunicorn==21.2.0  # For production server 

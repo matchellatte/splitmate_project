@@ -1,0 +1,1 @@
+web: gunicorn splitmate_project.wsgi:application 
