@@ -23,7 +23,6 @@ function GroupDetail() {
   const [settleAmount, setSettleAmount] = useState('');
   const [settleError, setSettleError] = useState('');
 
-  const [user, setUser] = useState(null);
 
   const openOwedModal = (member) => {
     setModalOwedMember(member);

@@ -7,7 +7,6 @@ function ExpenseForm({ isEdit = false }) {
   const navigate = useNavigate();
 
   const [group, setGroup] = useState(null);
-  const [expense, setExpense] = useState(null);
   const [form, setForm] = useState({
     description: '',
     amount: '',
