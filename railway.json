@@ -6,8 +6,7 @@
     "deploy": {
       "runtime": "V2",
       "numReplicas": 1,
-      "startCommand": "gunicorn splitmate_project.wsgi:application",
-      "releaseCommand": "python manage.py migrate",
+      "startCommand": "python manage.py migrate && gunicorn splitmate_project.wsgi:application",
       "sleepApplication": false,
       "multiRegionConfig": {
         "asia-southeast1-eqsg3a": {
