@@ -54,7 +54,7 @@ function ExpenseForm({ isEdit = false }) {
 
   // Handle form field changes
   const handleChange = (e) => {
-    const { name, value, type, checked } = e.target;
+    const { name, value, checked } = e.target;
     if (name === 'split_with_users' || name === 'split_with_external') {
       setForm((prev) => {
         const arr = new Set(prev[name]);
