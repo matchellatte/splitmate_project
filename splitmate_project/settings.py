@@ -163,11 +163,13 @@ REST_FRAMEWORK = {
 
 # Update CORS settings
 CORS_ALLOWED_ORIGINS = [
-    "https://splitmate-project.vercel.app",  # Update this with your Vercel domain
+    "https://splitmate-project.vercel.app",
+    "https://www.split-mate.site",
     "http://localhost:3000",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://splitmate-project.vercel.app",  # Update this with your Vercel domain
+    "https://splitmate-project.vercel.app",
     "http://localhost:3000",
+    "https://www.split-mate.site",
 ]
