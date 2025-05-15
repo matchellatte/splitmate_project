@@ -41,11 +41,7 @@ function Register() {
     <div className="container d-flex align-items-center justify-content-center min-vh-100">
       <div className="card p-4" style={{ borderRadius: '1rem', maxWidth: 400, width: '100%', background: '#fff' }}>
         <div className="text-center mb-4">
-          <img
-            src="/images/splitmate_logo_1.png"
-            alt="SplitMate Logo"
-            style={{ maxWidth: 90, marginBottom: '1rem' }}
-          />
+          
           <div className="fw-bold" style={{ color: '#198754', fontSize: '2rem', letterSpacing: '-1px' }}>Create Account</div>
           <div className="text-muted mb-3">Sign up to SplitMate and start tracking group expenses</div>
         </div>

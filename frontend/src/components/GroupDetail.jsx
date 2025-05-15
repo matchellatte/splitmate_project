@@ -182,18 +182,12 @@ function GroupDetail() {
                         <td>
                           {member.email && <span className="text-muted">({member.email})</span>}
                         </td>
-                        <td>
-                          <span className="badge bg-secondary">Registered</span>
-                        </td>
                       </tr>
                     ))}
                     {group.external_members.map(ext => (
                       <tr key={`ext_${ext.id}`}>
                         <td>{ext.username}</td>
                         <td className="text-muted">({ext.email})</td>
-                        <td>
-                          <span className="badge bg-secondary">External</span>
-                        </td>
                       </tr>
                     ))}
                   </tbody>

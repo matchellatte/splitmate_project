@@ -17,11 +17,9 @@ function Layout({ hideSidebar = false, user, onLogout, messages = [] }) {
           <>
             <div className="col-md-2 d-none d-md-flex flex-column align-items-stretch bg-white shadow-sm p-0" style={{ minHeight: '100vh', borderRadius: '1rem' }}>
               <div className="d-flex flex-column align-items-center py-4 border-bottom">
-                <img
-                  src="/images/splitmate_logo_horizontal_1.png"
-                  alt="SplitMate Logo"
-                  style={{ maxWidth: 180, height: 'auto', marginBottom: '1rem' }}
-                />
+                <span style={{ fontWeight: 'bold', fontSize: '2rem', color: '#2d7a46', marginBottom: '1rem', letterSpacing: '2px' }}>
+                  SplitMate
+                </span>
               </div>
               <nav className="nav flex-column mt-3">
                 <Link className={`nav-link d-flex align-items-center px-4 py-3${isActive('/dashboard') ? ' active fw-bold bg-splitmate-green text-white' : ' text-splitmate-green'}`} to="/dashboard">
